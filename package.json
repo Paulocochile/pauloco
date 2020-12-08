@@ -16,10 +16,13 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "autoprefixer": "^10.1.0",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-catch-links": "^2.6.0",
     "gatsby-plugin-postcss": "^3.3.0",
     "postcss": "^8.2.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^2.0.1"
   }
 }
