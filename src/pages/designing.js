@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 
 const Designing = () => {
   return (
-    <main className="min-h-full md:px-20 lg:px-32">
+    <main className="min-h-screen md:px-20 lg:px-32 bg-gray-200">
       <title>Pauloco</title>
       <Navbar />
       <div class="grid grid-cols-2 gap-4 my-30">

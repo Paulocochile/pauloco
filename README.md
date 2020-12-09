@@ -1,14 +1,11 @@
 ## Backend: Graphql & Google Sheets CMS
 
-1.  **Source-sheets plugin**
+1.  plugins
 
-    https://www.gatsbyjs.com/plugins/gatsby-source-google-spreadsheets/?=source%20sheets
-
-
-## Front end:
-
-1.  **Styling: Gatsby Tailwing CSS**
+    https://www.gatsbyjs.com/plugins/gatsby-plugin-catch-links/
+    
 
     Credits: 
+    https://heroicons.com/
     https://tailwindcss.com/docs/guides/gatsby
     https://tailwindcomponents.com/component/simple-navbar
