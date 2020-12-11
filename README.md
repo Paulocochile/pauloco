@@ -3,6 +3,8 @@
 1.  plugins
 
     https://www.gatsbyjs.com/plugins/gatsby-plugin-catch-links/
+    https://www.gatsbyjs.com/plugins/gatsby-transformer-csv/
+    https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
     
 
     Credits: 
