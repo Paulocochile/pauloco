@@ -3,14 +3,16 @@ import Navbar from "../components/navbar";
 
 const IndexPage = () => {
   return (
-    <main className="min-h-screen md:px-20 lg:px-32 bg-gray-100">
+    <main className="min-h-screen 3xl:px-80 xl:px-40 bg-gray-100">
       <title>Pauloco</title>
       <Navbar />
-      <div class="grid grid-cols-2 gap-4 my-14 p-10 content-center bg-white">
+      <div class="rounded-lg grid grid-cols-2 gap-4 my-14 p-10 content-center bg-white shadow">
         <div>Photo Collage</div>
         <div>
           <div className="flex content-center my-2">
-            <div className="text-4xl">Hi there, I'm <b>P</b>ablo &nbsp;</div>{" "}
+            <div className="text-2xl">
+              Hi there, I'm <b>Pablo Ayala Raineri</b> &nbsp;
+            </div>{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -26,30 +28,27 @@ const IndexPage = () => {
               />
             </svg>{" "}
           </div>
-          <div className="text-xl">
-            You can call me: Pauloco,
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pablo Ayala Raineri,
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pablo Ayala Rolando.
+          <div className="text-lg">
+            aka Pauloco
           </div>
+          
           <br />
           <h1 className="text-lg">
-            I have studies and experience in Mechanical Engineering, Industrial
-            Engineering, Design Thinking, User Experience, Product Design, IT,
-            Project Management, Product Management, Innovation.
+            <br />
+            Contact:
+            <br />
+            CV - Ln - Github - Email
+            <br />
+            <br />
+            Check out my work in:
+            <br />
+            
+             Engineering - Management - Design - Economics
+            
+            <br />
+            <br />
+            <br />
           </h1>
-         
-          <br />
-          I organized my products & projects here. Check them out :) 
-          <br />
-          <br />
-          CV - Design - Engineering - Management
-          <br />
-          <br />
-          Contact
-          <br />
-          <br />
           <br />
         </div>
       </div>

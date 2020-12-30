@@ -4,7 +4,7 @@ import Card from "../components/card";
 
 const Engineering = () => {
   return (
-    <main className="min-h-screen md:px-20 lg:px-32 bg-gray-100">
+    <main className="min-h-screen 3xl:px-80 xl:px-40 bg-gray-100">
       <title>Pauloco/Engineering</title>
       <Navbar />
       <Card cardNumber="1" />
