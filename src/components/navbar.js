@@ -6,36 +6,30 @@ export default function Navbar() {
       <div className="mb-2 sm:mb-0">
         <a
           href="/"
-          className="text-3xl text-blue-600 no-underline hover:text-blue-dark"
+          className="text-4xl text-blue-600 no-underline hover:text-blue-dark"
         >
-          <b>Pablo Ayala Raineri</b> Projects
+          <b>Pablo</b> Projects
         </a>
       </div>
       <div>
         <a
           href="/engineering"
-          className="text-xl text-blue-600 no-underline hover:text-blue-dark ml-2"
+          className="text-2xl text-blue-600 no-underline hover:text-blue-dark ml-2"
         >
            Engineering
         </a> -
         <a
           href="/planning"
-          className="text-xl text-blue-600 no-underline hover:text-blue-dark ml-2"
+          className="text-2xl text-blue-600 no-underline hover:text-blue-dark ml-2"
         >
           Management
            
         </a> -
         <a
           href="/designing"
-          className="text-xl text-blue-600 no-underline hover:text-blue-dark ml-2"
+          className="text-2xl text-blue-600 no-underline hover:text-blue-dark ml-2"
         >
           Design
-        </a> -
-        <a
-          href="/designing"
-          className="text-xl text-blue-600 no-underline hover:text-blue-dark ml-2"
-        >
-         Economics
         </a>
       </div>
     </nav>

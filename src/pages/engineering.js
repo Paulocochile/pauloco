@@ -8,9 +8,7 @@ const Engineering = () => {
       <title>Pauloco/Engineering</title>
       <Navbar />
       <Card cardNumber="1" />
-      <Card cardNumber="2" />
       <Card cardNumber="3" />
-      <Card cardNumber="4" />
       <Card cardNumber="5" />
       <Card cardNumber="6" />
       <Card cardNumber="7" />

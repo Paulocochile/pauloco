@@ -1,16 +1,10 @@
-frase-card,project-areas-card,project-skills-card-page,Links-page,One Liner-card,Date-page,body-page,context,outcome-page
-Pauloco.com,"design, engineering","Javascript, Product Design, React",,,,,,
-Habit Accountability,"design, engineering","Javascript, Product Design, React",,,,,,
-Google Forum,"management, design","DEmand Calculations, UX Research cooperation, Public Speaking",,,,,,
-Bachelors,engineering,Engineering,,Hard science and math :),,,,
-Industrial Engineering,"engineering, management",Management,,,,,,
-Mechanical Engineering,"engineering, design","Physics, Product Design, Design Thinking, UX Research",,"Very hard physics, but what I loved the most was Product Design, Design Thinking, UX Research in which I was a teacher assistant.",,,,
-Memoryoak,"management, engineering, design","Management, Javascript, ",,"We were both stuck too long in the development process. Building a social network wasnt easy, and we got  stuck coding an mvp. But who knows, maybe in the future we do it more quickly...",,,,
-IDEO Proactive Health,design,"UX Research, Design Thinking, Product Design",,,,,,
-SRE TPM Rotation,"management, engineering","Javascript, MAnagement",,,,,,
-Google IT Residency,engineering,"IT, Public Speaking",,Inductions,,,,
-SAP IT Support,"engineering, management","IT, Management",,2 promotions to latam team lead and then back end support in,,,,
-Machine Learning,"engineering, design","python, ml",,,,,,
-MIT Human Computer Interaction,design,"UI & UX Design, Product Design",,,,,,
-prince2 certificate,management,Project Management,,,,,,
-gosplan,"design, management","product management, product roadmap",,,,,,
+Name,Image-html,Skills,What Happened,Context,Outcome,Checkout-href,Checkout-name
+Pauloco.com,.,"Javascript, Product Design, React",I designed and developed a blog website where I can easily update the information within. I update all the data there in a single google spreasheet to remove all overhead.,I was in need of a place to showcase my work.,"Someone is reading what I do, which is good.",.,.
+A new IT support channel for Google,.,"DEmand Calculations, UX Research cooperation, Public Speaking","I ideated, designe and implemented a new IT support channel and knowledge base ",This project was a spinoff,The new channel was implemented after it overwhelmingly beat our expectations. During it's first quarter in operation it helped hundreds of thousands and our goal was less than twenty thousand.,I wrote a thesis in the early stages of the channel's pilot for my University.,.
+Memoryoak,.,"Management, Javascript, ","We were both stuck too long in the development process. Building a social network wasnt easy, and we got  stuck coding an mvp. But who knows, maybe in the future we do it more quickly...",I was eager to start a ,"I learned what it takes to bring a product to market, and what were my strengths and weaknesses when managing this.",.,.
+IDEO Proactive Health,.,"UX Research, Design Thinking, Product Design",Together with a team we went through a design thinking process to innovate in proactive health.,Partnership between Design Central and my University,We designed a device for diagnosis pre-diabetes that was exhibited by the University for years.,.,.
+Google Implementing SRE Policy,.,"Javascript, Management",.,.,.,.,.
+Google Objectives & Key Results Management ,.,"IT, Public Speaking",Inductions,.,.,.,.
+Using Machine Learning to classify Biden & Trump tweets,.,"python, ml",.,.,.,.,.
+Design Thinking in Google,.,.,.,.,.,.,.
+UX/UI Reviews for Google Internal Tools,.,.,.,.,.,.,.

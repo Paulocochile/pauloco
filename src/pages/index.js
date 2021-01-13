@@ -1,17 +1,18 @@
 import * as React from "react";
 import Navbar from "../components/navbar";
+import Profile from "../images/profile.jpg"
 
 const IndexPage = () => {
   return (
     <main className="min-h-screen 3xl:px-80 xl:px-40 bg-gray-100">
       <title>Pauloco</title>
       <Navbar />
-      <div class="rounded-lg grid grid-cols-2 gap-4 my-14 p-10 content-center bg-white shadow">
-        <div>Photo Collage</div>
-        <div>
-          <div className="flex content-center my-2">
+      <div class="rounded-lg grid grid-cols-2 gap-4 my-14 p-10 content-center">
+        <div><img src={Profile} alt="A dog smiling in a party hat" /></div>
+        <div className="ml-6">
+          <div className="flex content-center mt-10">
             <div className="text-2xl">
-              Hi there, I'm <b>Pablo Ayala Raineri</b> &nbsp;
+              Hi there, I'm <b>Pablo</b>  &nbsp;
             </div>{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,22 +29,38 @@ const IndexPage = () => {
               />
             </svg>{" "}
           </div>
-          <div className="text-lg">
-            aka Pauloco
-          </div>
           
           <br />
           <h1 className="text-lg">
             <br />
-            Contact:
-            <br />
-            CV - Ln - Github - Email
-            <br />
-            <br />
-            Check out my work in:
+            Check out my projects in:
             <br />
             
-             Engineering - Management - Design - Economics
+            <a
+          href="/engineering"
+          className="text-2xl text-blue-600 no-underline hover:text-blue-dark"
+        >
+           Engineering
+        </a> -&nbsp;
+        <a
+          href="/planning"
+          className="text-2xl text-blue-600 no-underline hover:text-blue-dark"
+        >
+          Management
+           
+        </a> -&nbsp;
+        <a
+          href="/designing"
+          className="text-2xl text-blue-600 no-underline hover:text-blue-dark"
+        >
+          Design
+        </a>
+            
+            <br />
+            <br />
+            Contact:
+            <br />
+            pabloa99@gmail.com
             
             <br />
             <br />
