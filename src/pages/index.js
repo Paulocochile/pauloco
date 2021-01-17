@@ -1,18 +1,17 @@
 import * as React from "react";
 import Navbar from "../components/navbar";
-import Profile from "../images/profile.jpg"
 
 const IndexPage = () => {
   return (
     <main className="min-h-screen 3xl:px-80 xl:px-40 bg-gray-100">
       <title>Pauloco</title>
       <Navbar />
-      <div class="rounded-lg grid grid-cols-2 gap-4 my-14 p-10 content-center">
-        <div><img src={Profile} alt="A dog smiling in a party hat" /></div>
-        <div className="ml-6">
-          <div className="flex content-center mt-10">
+      <div class="rounded-lg grid md:grid-cols-2 grid-cols-1 gap-4 mt-2 md:mt-6 p-10 content-center">
+        <div><img className="md:-ml-3" src={`profile.jpg`} alt="A dog smiling in a party hat" /></div>
+        <div className="md:ml-28">
+          <div className="flex content-center mt-10 md:mt-20">
             <div className="text-2xl">
-              Hi there, I'm <b>Pablo</b>  &nbsp;
+              Hello. I'm <b>Pablo</b>  &nbsp;
             </div>{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +29,7 @@ const IndexPage = () => {
             </svg>{" "}
           </div>
           
-          <br />
+          
           <h1 className="text-lg">
             <br />
             Check out my projects in:
@@ -58,7 +57,7 @@ const IndexPage = () => {
             
             <br />
             <br />
-            Contact:
+            Email:
             <br />
             pabloa99@gmail.com
             
