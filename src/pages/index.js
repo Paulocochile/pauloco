@@ -4,68 +4,53 @@ import Navbar from "../components/navbar";
 const IndexPage = () => {
   return (
     <main className="min-h-screen 3xl:px-80 xl:px-40 bg-gray-100">
-      <title>Pauloco</title>
+      <title>Pablo</title>
       <Navbar />
-      <div class="rounded-lg grid md:grid-cols-2 grid-cols-1 gap-4 mt-2 md:mt-6 p-10 content-center">
-        <div><img className="md:-ml-3" src={`profile.jpg`} alt="A dog smiling in a party hat" /></div>
-        <div className="md:ml-28">
-          <div className="flex content-center mt-10 md:mt-20">
-            <div className="text-2xl">
-              Hello. I'm <b>Pablo</b>  &nbsp;
-            </div>{" "}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="h-10"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11"
-              />
-            </svg>{" "}
-          </div>
+      <div class="rounded-lg grid grid-cols-1 gap-4 content-center mt-6">
+        
+        <div className="text-center content-center my-0">
+          <div className="text-center sm:inline-flex mx-auto h-auto content-center hidden"><img className="object-cover md:object-contain" src={`pabloinmountain.png`} alt="A dog smiling in a party hat" /></div>
+          <div className="text-center inline-flex mx-auto h-auto content-center sm:hidden"><img className="object-cover md:object-contain" src={`pabloinmountainmobile.png`} alt="A dog smiling in a party hat" /></div>
           
-          
-          <h1 className="text-lg">
-            <br />
-            Check out my projects in:
-            <br />
-            
+          <h1 className="text-lg mt-1 md:text-3xl">
+          Check out some&nbsp;
+
+            <a
+          href="/mountains"
+          className=" text-blue-600 no-underline hover:text-blue-dark"
+        >
+           Mountains
+        </a> I discovered and my work in&nbsp;
             <a
           href="/engineering"
-          className="text-2xl text-blue-600 no-underline hover:text-blue-dark"
+          className=" text-blue-600 no-underline hover:text-blue-dark"
         >
            Engineering
-        </a> -&nbsp;
+        </a>,&nbsp;
         <a
-          href="/planning"
-          className="text-2xl text-blue-600 no-underline hover:text-blue-dark"
+          href="/strategy"
+          className="text-blue-600 no-underline hover:text-blue-dark"
         >
-          Management
+          Strategy
            
-        </a> -&nbsp;
+        </a> &&nbsp;
         <a
-          href="/designing"
-          className="text-2xl text-blue-600 no-underline hover:text-blue-dark"
+          href="/design"
+          className=" text-blue-600 no-underline hover:text-blue-dark"
         >
           Design
-        </a>
+        </a>.
+
+            <br/>
+            <div className="text-md md:text-2xl mt-6">
+            Email me at pabloa99@gmail.com
+            </div>
             
-            <br />
-            <br />
-            Email:
-            <br />
-            pabloa99@gmail.com
-            
-            <br />
-            <br />
-            <br />
+
           </h1>
-          <br />
+
+          
+
         </div>
       </div>
     </main>
