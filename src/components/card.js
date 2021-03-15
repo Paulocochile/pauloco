@@ -40,7 +40,7 @@ const Card = (props) => {
       <div class="border-t border-gray-200">
         <dl>
           <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-md font-medium text-gray-500">What I did</dt>
+            <dt class="text-md font-medium text-gray-500">Project</dt>
             <dd class="mt-1 text-lg text-gray-700 sm:mt-0 sm:col-span-2">
             {data.allPaulocoDataCsv.nodes[0].cards[props.cardNumber].field4}
             </dd>
