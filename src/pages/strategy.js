@@ -7,12 +7,10 @@ const Strategy = () => {
     <main className="min-h-screen 3xl:px-80 xl:px-40 bg-gray-100 pb-10">
       <title>Pablo/Strategy</title>
       <Navbar />
-      <Card cardNumber="10" />
       <Card cardNumber="2" />
       <Card cardNumber="3" />
-      <Card cardNumber="5" />
       <Card cardNumber="6" />
-      <Card cardNumber="9" />
+
     </main>
   );
 };

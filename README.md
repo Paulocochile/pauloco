@@ -1,6 +1,11 @@
-## Backend: Graphql & Google Sheets CMS
+## Frontend: 
+# Gatsby (JSX React App)
 
-1.  plugins
+## Backend: 
+# Graphql 
+# Google Sheets CMS
+
+## Gatsby  plugins
 
     https://www.gatsbyjs.com/plugins/gatsby-plugin-catch-links/
     https://www.gatsbyjs.com/plugins/gatsby-transformer-csv/
